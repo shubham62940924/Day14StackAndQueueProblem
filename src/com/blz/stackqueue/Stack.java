@@ -10,7 +10,7 @@ public class Stack {
 	public void pop() {
 		while (linkedList.head != null)
 			linkedList.deleteFirst();
-	}//
+	}
 
 	public void displayStack() {
 		linkedList.display();

@@ -7,6 +7,9 @@ public class Main {
 		queue.enque(56);
 		queue.enque(30);
 		queue.enque(70);
+		queue.deque();
+		queue.deque();
+		queue.deque();
 
 	}
 }

@@ -124,7 +124,7 @@ public class LinkedList {
 
 	public void deleteElement(Object data) {
 		if (head == null)
-			System.out.println("Linked list is   empty so can not delete");
+			System.out.println("Linked list is empty so can not delete");
 		else if (head.data == data) {
 			head = null;
 		} else {
