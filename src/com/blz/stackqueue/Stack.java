@@ -7,6 +7,7 @@ public class Stack {
 		linkedList.addFirst(data);
 	}
 
+	//
 	public void pop() {
 		while (linkedList.head != null)
 			linkedList.deleteFirst();
